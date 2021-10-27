@@ -5,7 +5,7 @@ var objCalculadora = (function (inicio) {
 
     // función privada
     salirpantalla = function () {
-        var cadena = "El resultado es: " + resultado;
+        var cadena = "El resultado es : " + resultado;
         document.getElementById("salida").innerHTML = cadena;
     };
 

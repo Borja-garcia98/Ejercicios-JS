@@ -7,7 +7,7 @@ function printarMensaje() {
             document.write("Enero tiene 31 días");
             break;
         case '2':
-            document.write("Febrero tiene 28 o 29 días");
+            document.write("Febrero tiene 28 o 29 días.");
             break;
         case '3':
             document.write("Marzo tiene 31 días");
