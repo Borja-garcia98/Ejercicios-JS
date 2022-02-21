@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Esdeveniments/styles.css">
+</head>
+<body>
+    <h1 data-titulo="Título DOM">Esdeveniments</h1>
+
+    <h3 id="titulo"> TABLA </h3>
+    <table class="tabla1" id="tabla">
+        <tr>
+            <td>Persona 1</td>
+            <td>Persona 2</td>
+            <td>Persona 3</td>
+        </tr>
+        <tr>
+            <td>Persona 4</td>
+            <td>Persona 5</td>
+            <td id="Persona6" data-celda="Persona 6">Persona 6</td>
+        </tr>
+    </table>
+
+    <h3 id="titulo"> Lista de la compra</h3>
+    <ul>
+        <li>Revistas viejas</li>
+        <li id="???pep">Hoja blanca</li>
+        <li id="patatas">Patatas</li>
+        <li>Dulces:</li>
+
+            <ul id="sabores">Chcolate</ul>
+            <ul> Bollicao </ul>
+            <ul> Magdalenas </ul>
+    </ul><br>
+
+    <h3 id="titulo">Botones de modificación</h3>
+    <table class="tabla2">
+        <tr>
+            <td><button id="btn4">Modificar la <br>Persona 6</button></td>
+            <td><button id="btn2">Cambiar color de <br>todos los textos</button></td>
+            <td><button id="btn3">Modificar <br> patatas</button></td>
+            <td><button id="btn5">Modificar sabor <br>del chcolate</button></td>
+            <td><button id="btn6">Insertar <br> nueva Persona</button></td>
+        </tr>
+    </table>
+    <script src="/Esdeveniments/script.js" async defer></script>
+</body>
+
+</html>
