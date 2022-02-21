@@ -94,8 +94,8 @@
 
 //Mostrar per consola el contingut del div que te un id que comença per "je"
 
-let divJE = document.querySelector("[id^=je]");
-console.log(divJE.innerHTML);
+    let divJE = document.querySelector("[id^=je]");
+    console.log(divJE.innerHTML);
 
 //Mostrar per consola el contingut del div que te un id que acaba per "fe"
     let divFE = document.querySelector("[id$=fe]");
