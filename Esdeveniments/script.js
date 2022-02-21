@@ -19,7 +19,7 @@ btn4.addEventListener("click", () => {
   });
 
   btn5.addEventListener("click", () => {
-   modificarLapices();
+   modificarSabores();
   });
 
   btn6.addEventListener("click", () => {
@@ -48,12 +48,17 @@ function modificarPersona(){
     Persona6.innerText = "Persona modificada!"
 }
 
+const myTimeout = setTimeout(modificarSabores, 3000);
 
-function modificarLapices(){
-    let colores = document.getElementById('sabores')
-
-    colores.innerText += " Blanco."
+function modificarSabores(){
+  
+    let sabores = document.getElementById('sabores')
+    sabores.innerText = " Chcoloate Blanco"
 }
+
+function myStopFunction() {
+    clearTimeout(myTimeout);
+  }
 
 function insertarPersona(){
     let tabla = document.getElementById('tabla')
