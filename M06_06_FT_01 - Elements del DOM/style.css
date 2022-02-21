@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+tr[sexo=mujer] {
+    background-color: rgb(228, 150, 33);
+    color: white;
+}
+
+tr[sexo=hombre] {
+    background-color: rgb(235, 31, 31);
+    color: white;
+}
